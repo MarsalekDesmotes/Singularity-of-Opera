@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class SahneMotoru : MonoBehaviour
 {
-  public void playGecis()
+  public void Bolum4Gecis()
     {
 
         SceneManager.LoadScene("Main");
@@ -35,5 +35,29 @@ public class SahneMotoru : MonoBehaviour
 
 
     }
+
+
+
+
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+
+
+        if(collision.gameObject.tag == "hero")
+        {
+
+        Debug.Log("spacegetti");
+        Bolum4Gecis();
+
+        }
+       
+
+
+    }
+
+
+
+
 
 }
