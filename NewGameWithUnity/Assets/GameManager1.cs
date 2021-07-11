@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 /*Game Manager'a heryerden ulaþmak istediðimiz için namespace vermiyoruz*/
-public class GameManager : MonoBehaviour
+public class GameManager1 : MonoBehaviour
 {
-    public static GameManager Instance { get; private set; }
+    public static GameManager1 Instance { get; private set; }
 
     private void Awake()
     {
@@ -37,9 +37,9 @@ public class GameManager : MonoBehaviour
 
     private IEnumerator RestartGameAsync()
     {
-        
-        
-        yield return SceneManager.LoadSceneAsync("Main"); //yield return - > Bu method bittikten sonra çalýþmaya devam edecek. 
+
+
+        yield return SceneManager.LoadSceneAsync("Bolum 2"); //yield return - > Bu method bittikten sonra çalýþmaya devam edecek. 
     }
 
 

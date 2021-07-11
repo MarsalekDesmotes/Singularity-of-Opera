@@ -143,6 +143,11 @@ public class astro_hareket : MonoBehaviour //MonoBehavior'dan türetilmiþ aslýnda
             Debug.Log("Spike");
             GameManager.Instance.RestartGame();
         }
+        if (collision.gameObject.tag == "spike2")
+        {
+            Debug.Log("Spike2");
+            GameManager1.Instance.RestartGame();
+        }
 
 
 
