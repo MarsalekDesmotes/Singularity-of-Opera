@@ -2143,6 +2143,18 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 2.2
       objectReference: {fileID: 0}
+    - target: {fileID: 2558744865698681555, guid: 85d27055508e9f243a2a60bb7755047b, type: 3}
+      propertyPath: Loop
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2558744865698681555, guid: 85d27055508e9f243a2a60bb7755047b, type: 3}
+      propertyPath: m_Volume
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2558744865698681555, guid: 85d27055508e9f243a2a60bb7755047b, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 5fe031825bb521242acc74fefb2b69f8, type: 3}
     - target: {fileID: 2558744866259788635, guid: 85d27055508e9f243a2a60bb7755047b, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: -533.9373
@@ -2265,7 +2277,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2558744867291814855, guid: 85d27055508e9f243a2a60bb7755047b, type: 3}
       propertyPath: orthographic size
-      value: 96.93283
+      value: 123.78502
       objectReference: {fileID: 0}
     - target: {fileID: 2558744867570509550, guid: 85d27055508e9f243a2a60bb7755047b, type: 3}
       propertyPath: m_IsActive
@@ -2797,6 +2809,10 @@ PrefabInstance:
     - target: {fileID: 257591463340764141, guid: 96898d636bad11f46a2ea46a34ae3476, type: 3}
       propertyPath: m_Name
       value: robot_yeni_son_hali 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 257591463610569942, guid: 96898d636bad11f46a2ea46a34ae3476, type: 3}
+      propertyPath: m_Volume
+      value: 0.19
       objectReference: {fileID: 0}
     - target: {fileID: 257591463888377811, guid: 96898d636bad11f46a2ea46a34ae3476, type: 3}
       propertyPath: m_LocalPosition.x

@@ -18,6 +18,7 @@ public class Bocek : MonoBehaviour
         {
             BocekisDead = true;
             Destroy(this.gameObject);
+          
         }
 
 
