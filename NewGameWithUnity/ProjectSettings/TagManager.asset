@@ -24,6 +24,8 @@ TagManager:
   - BugBugBug
   - spike
   - spike2
+  - diken
+  - spike3
   layers:
   - Default
   - TransparentFX
