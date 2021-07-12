@@ -36,6 +36,13 @@ public class SahneMotoru : MonoBehaviour
 
     }
 
+    public void sonGecis()
+    {
+        SceneManager.LoadScene("Son");
+
+
+    }
+
 
 
 
@@ -46,7 +53,7 @@ public class SahneMotoru : MonoBehaviour
 
         if(collision.gameObject.tag == "hero")
         {
-
+    
         Debug.Log("spacegetti");
         Bolum4Gecis();
 

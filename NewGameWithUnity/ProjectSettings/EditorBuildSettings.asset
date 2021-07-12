@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Bolum1 1/Scenes/Bolum 2.unity
     guid: d827a9a14ca82894c9d244b9a5e54260
+  - enabled: 1
+    path: Assets/Bolum4/Scenes/Main.unity
+    guid: 1c49abc4eab16504990fd44d11ccba78
   m_configObjects: {}
